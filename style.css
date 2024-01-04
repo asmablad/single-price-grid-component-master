@@ -86,9 +86,9 @@ main {
   max-width:20rem;
   margin: 10px;
   font-size: 16px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
 }
 .container {
-  /*width: 20rem;*/ /*no need for it*/
   padding: 2rem;
 }
 .one {
@@ -105,11 +105,11 @@ main {
 .one p {
   color: var(--clr-Grayish-Blue);
 }
-.green-sect {
+.green-section {
   display: grid;
   color: white;
 }
-.tow {
+.two {
   background-color: var(--clr-Cyan);
 } 
 span {
@@ -168,7 +168,7 @@ button {
   main {
     max-width:40.375rem;
   }
-  .green-sect {
+  .green-section  {
     grid-template-columns: 1fr 1fr;
   }
 }
