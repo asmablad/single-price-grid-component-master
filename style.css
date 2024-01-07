@@ -86,30 +86,32 @@ main {
   max-width:20rem;
   margin: 10px;
   font-size: 16px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  border-radius: 0.35rem;
+  overflow: hidden;
+  box-shadow: 0 5px 10px rgba(124, 124, 124, 0.4);
 }
 .container {
   padding: 2rem;
 }
-.one {
+.section-1 {
   background-color: white;
   display: grid;
   gap: 1rem;
 }
-.one h1 {
+h1 {
   color: var(--clr-Cyan);
 }
-.one h2 {
+h2 h3{
   color: var(--clr-Bright-Yellow);
 }
-.one p {
+.section-1 p {
   color: var(--clr-Grayish-Blue);
 }
 .green-section {
   display: grid;
   color: white;
 }
-.two {
+.section-2 {
   background-color: var(--clr-Cyan);
 } 
 span {
@@ -125,24 +127,32 @@ span {
   align-items: center;
   margin-top: 1rem;
 }
-button {
+.button {
   cursor: pointer;
-  width: 100%;
+  text-decoration: none;
   background-color: var(--clr-Bright-Yellow);
-  border: none;
-  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-top: 1.5rem;
   border-radius: 0.5rem;
   color: white;
   font-weight: 700;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  box-shadow: 1px 1px 20px rgba(40, 40, 40, 0.3);
+  padding: 0.5rem;
 }
-.three {
+.section-3 {
   background-color: var(--clr-light-Cyan);
 }
-.three p {
+.section-3 ul {
+  list-style: none;
+  line-height: 1.3rem;
+}
+li:first-child {
+  padding-top: 1rem;
+}
+.section-3 p {
   color: hsl(var(--clr-gray)/.8);
-  margin-top: 1rem;
 }
 /*----utility classes---*/
 .fw-bold {
